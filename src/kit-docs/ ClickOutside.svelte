@@ -1,4 +1,5 @@
 <script>
+  
   import { clickOutside } from "sveltronics";
 
   let show = false;
