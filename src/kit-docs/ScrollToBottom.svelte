@@ -1,6 +1,6 @@
 <script>
+  // @ts-nocheck
   import { scrollToBottom } from "sveltronics";
-
 
   let id = 0;
   let todos = [

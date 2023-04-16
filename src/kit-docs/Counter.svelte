@@ -1,4 +1,5 @@
 <script>
+  // @ts-nocheck
   import { counter } from "sveltronics";
 
   let { count, inc, dec, set, reset } = counter(1);

@@ -1,4 +1,5 @@
 <script>
+  // @ts-nocheck
   import { cycleList } from "sveltronics";
 
   let list = [10, 20, 30, 40, 50];

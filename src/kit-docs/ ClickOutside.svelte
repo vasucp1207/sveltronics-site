@@ -1,5 +1,5 @@
 <script>
-  
+// @ts-nocheck
   import { clickOutside } from "sveltronics";
 
   let show = false;

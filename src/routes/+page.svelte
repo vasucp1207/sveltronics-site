@@ -1,4 +1,5 @@
 <script>
+  // @ts-nocheck
   import { setDraggable } from "sveltronics";
 
 </script>

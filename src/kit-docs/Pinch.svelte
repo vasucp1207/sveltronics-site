@@ -1,4 +1,5 @@
 <script>
+  // @ts-nocheck
   import { pinch } from "sveltronics";
 
 </script>
