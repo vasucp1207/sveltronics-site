@@ -29,6 +29,7 @@
   },
   "type": "module",
   "dependencies": {
+    "netlify": "^13.1.4",
     "sveltronics": "^0.0.10"
   }
 }
