@@ -1,22 +1,16 @@
-# useMouse
+# mousePos
 
 Reactive mouse position.
 
 ## Demo
 
-<script>
-  import { useMouse } from "sveltronics";
-
-  let { x, y } = useMouse();
-</script>
-
-<p>pos: {$x}, {$y}</p>
+<MousePos />
 
 ## Usage
 
 ```svelte
 <script>
-  import { useMouse } from "sveltronics";
+  import { mousePos } from "sveltronics";
 
   let { x, y } = useMouse();
 </script>

@@ -11,13 +11,14 @@ Reactive `LocalStorage` it provides an easy way to store and retrieve data from 
 
 </script>
 
-<div class="flex justify-center items-center h-96 gap-4">
+<div class="flex justify-center items-center gap-4">
   <p class="text-3xl">{$count}</p>
   <button
     on:click={() => count.update(val => val + 1)}
     style="width: 100px; height: 50px; color: white; background: #f0f;
       cursor: pointer; display: flex; justify-content: center; align-items: center;
       border-radius: 5px;"
+    class="border-2"
   >
     Increase
   </button>
@@ -26,6 +27,7 @@ Reactive `LocalStorage` it provides an easy way to store and retrieve data from 
     style="width: 100px; height: 50px; color: white; background: #f0f;
       cursor: pointer; display: flex; justify-content: center; align-items: center;
       border-radius: 5px;"
+    class="border-2"
   >
     Reset
   </button>

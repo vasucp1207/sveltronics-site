@@ -9,7 +9,7 @@ Reactive mouse position related to an element
   import { mouseInElement } from "sveltronics";
 
   let myEle;
-  let { elementX, elementY } = {};
+  let elementX, elementY;
   onMount(() => {
     ({ elementX, elementY } = mouseInElement(myEle));
   })
@@ -37,7 +37,7 @@ Reactive mouse position related to an element
   import { mouseInElement } from "sveltronics";
 
   let myEle;
-  let { elementX, elementY } = {};
+  let elementX, elementY;
   onMount(() => {
     ({ elementX, elementY } = mouseInElement(myEle));
   })

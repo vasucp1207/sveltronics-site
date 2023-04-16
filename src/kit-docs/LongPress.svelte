@@ -1,15 +1,6 @@
-# longPress
-
-`longPress` is a Svelte custom action that adds long press functionality to an element.
-
-## Demo
-
-<LongPress />
-
-## Usage
-
-```svelte
 <script>
+// @ts-nocheck
+
   import { longPress } from "sveltronics";
 
   let currVal = false;
@@ -24,8 +15,7 @@
 <button 
   use:longPress={1000}
   on:longPressCallback={toogle}
+  class="bg-[#f0f] text-white rounded border-2 p-2"
 >
-  Press(1000ms default)
+  Press(1000ms)
 </button>
-
-```

@@ -25,7 +25,7 @@ The Web Notification interface that display desktop notifications to the user.
 
 ## Usage
 
-```js
+```svelte
 <script>
   import { showNotification } from "sveltronics";
 

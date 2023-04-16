@@ -1,18 +1,10 @@
-# elementSize
-
-It is a utility function that takes an HTML element as its argument and returns an object with it's height and width.
-
-## Demo
-
-<ElementSize />
-
-## Usage
-
-```svelte
 <script>
   import { onMount } from "svelte";
   import { elementSize } from "sveltronics";
 
+  /**
+     * @type {HTMLElement}
+     */
   let myEle;
   let height, width;
   onMount(() => {
@@ -21,7 +13,6 @@ It is a utility function that takes an HTML element as its argument and returns 
 
 </script>
 
-<textarea bind:this={myEle} />
+<textarea bind:this={myEle} class="border-2 resize" />
 <div>Height: {$height}</div>
 <div>Width: {$width}</div>
-```

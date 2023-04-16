@@ -1,4 +1,4 @@
-# useCloned
+# cloned
 
 Cloned an object
 
@@ -6,7 +6,7 @@ Cloned an object
 
 ```svelte
 <script>
-  import { useCloned } from "sveltronics";
+  import { cloned } from "sveltronics";
 
   let user = {
     name: 'Mark',
@@ -19,6 +19,6 @@ Cloned an object
 </script>
 
 <div>
-  {JSON.stringify(cloneObj)}
+  {cloneObj}
 </div>
 ```

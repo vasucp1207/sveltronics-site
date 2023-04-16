@@ -1,14 +1,3 @@
-# clickOutside
-
-It is a utility function that listens for clicks outside of a designated element.
-
-## Usage
-
-## Demo
-
-<ClickOutside />
-
-```svelte
 <script>
   import { clickOutside } from "sveltronics";
 
@@ -21,6 +10,7 @@ It is a utility function that listens for clicks outside of a designated element
 
 <button
   on:click={() => show = true}
+  class="bg-[#f0f] text-white p-2 rounded border-2"
 >
   Show Modal
 </button>
@@ -29,8 +19,9 @@ It is a utility function that listens for clicks outside of a designated element
   <div
     use:clickOutside
     on:clickOutsideDispatch={toogle}
+    class="border-2 w-48 h-40 flex justify-center 
+    border-[#363535] rounded items-center"
   >
     Modal
   </div>
 {/if}
-```

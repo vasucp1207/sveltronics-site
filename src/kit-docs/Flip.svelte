@@ -1,14 +1,3 @@
-# flip
-
-Flip an element on hovering over it.
-
-## Demo
-
-<Flip />
-
-## Usage
-
-```svelte
 <script>
   import { flip } from "sveltronics";
   
@@ -16,16 +5,17 @@ Flip an element on hovering over it.
 
 <div
   use:flip
-  class="flip"
+  class="flip rounded h-80 w-60 text-white flex justify-center items-center"
 >
   <div class="content">
     <div class="front">
       <img
-        src=""
+        class="h-[100%] object-cover"
+        src="https://tse1.mm.bing.net/th?id=OIP.VRFtOMu9MHIS-41nstIxJgHaE8&pid=Api&P=0"
         alt="img"
       />
     </div>
-    <div class="back">
+    <div class="back flex justify-center p-2">
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui placeat ex
         officia illum aspernatur id impedit labore quos vitae. Cumque ea fugit
@@ -34,6 +24,9 @@ Flip an element on hovering over it.
     </div>
   </div>
 </div>
-```
 
-Make sure to provide the same classes name as the example.
+<style>
+  img {
+    margin: 0;
+  }
+</style>

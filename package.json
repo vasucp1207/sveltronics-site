@@ -28,6 +28,6 @@
   },
   "type": "module",
   "dependencies": {
-    "sveltronics": "^0.0.9"
+    "sveltronics": "^0.0.10"
   }
 }

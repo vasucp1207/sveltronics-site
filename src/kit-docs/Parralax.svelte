@@ -1,14 +1,3 @@
-# parallax
-
-Create parallax effect easily.
-
-## Demo
-
-<Parralax />
-
-## Usage
-
-```svelte
 <script>
   import { parallax } from "sveltronics";
 
@@ -16,7 +5,6 @@ Create parallax effect easily.
 
 <div 
   use:parallax={[700, 10]}
->
+  class="border-2 rounded bg-[#f0f] text-white h-80 w-60 flex items-center justify-center">
   Hover Me
 </div>
-```

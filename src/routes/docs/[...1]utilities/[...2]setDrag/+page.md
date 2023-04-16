@@ -1,11 +1,11 @@
-# setDrag
+# setDraggable
 
-`setDrag` utility function sets the element back to its original position on leaving the element.
+`setDraggable` utility function sets the element back to its original position on leaving the element.
 
 ## Demo
 
 <script>
-  import { setDrag } from 'sveltronics';
+  import { setDraggable } from 'sveltronics';
 </script>
 
 <div style="
@@ -18,7 +18,7 @@
   "
 >
   <div
-    use:setDrag
+    use:setDraggable
     style="
       cursor: grab;
       height: 150px;
@@ -39,10 +39,10 @@
 
 ```svelte
 <script>
-  import { setDrag } from 'sveltronics';
+  import { setDraggable } from 'sveltronics';
 </script>
 
-<div use:setDrag>
+<div use:setDraggable>
   Drag Me
 </div>
 ```

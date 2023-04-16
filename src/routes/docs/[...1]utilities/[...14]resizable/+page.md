@@ -5,11 +5,11 @@ Makes an element resizable.
 ## Demo
 
 <script>
-  import { resizeable } from 'sveltronics';
+  import { resizable } from 'sveltronics';
 </script>
 
 <div
-  use:resizeable
+  use:resizable
   style="
     height: 150px;
     width: 150px;
@@ -27,21 +27,11 @@ Makes an element resizable.
 
 ```svelte
 <script>
-  import { resizeable } from "sveltronics";
-  import { onMount } from "svelte";
-
-  let myEle;
-  let { height, width } = {};
-  onMount(() => {
-    ({ height, width } = elementSize(myEle));
-  })
+  import { resizable } from "sveltronics";
 
 </script>
 
-<div 
-  bind:this={myEle}
-  use:resizeable
->
+<div use:resizable>
   Resizeable
 </div>
 ```

@@ -1,4 +1,4 @@
-# useCached
+# cached
 
 Cache results of functions depending on arguments and keep it reactive.
 
@@ -6,14 +6,14 @@ Cache results of functions depending on arguments and keep it reactive.
 
 ```svelte
 <script>
-  import { useCached } from 'sveltronics';
+  import { cached } from 'sveltronics';
 
   const add = (a, b) => {
     console.log('Adding:', a, b);
     return a + b;
   };
 
-  const memoizedAdd = useCached(add);
+  const memoizedAdd = cached(add);
 </script>
 
 <div>

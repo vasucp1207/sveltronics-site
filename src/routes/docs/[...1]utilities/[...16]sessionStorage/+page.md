@@ -11,7 +11,7 @@ Reactive `SessionStorage` it provides an easy way to store and retrieve data fro
 
 </script>
 
-<div class="flex justify-center items-center h-96 gap-4">
+<div class="flex justify-center items-center gap-4">
   <p>{$count}</p>
   <button
     style="width: 100px; height: 50px;"

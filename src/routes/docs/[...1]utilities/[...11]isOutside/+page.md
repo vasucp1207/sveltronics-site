@@ -1,4 +1,4 @@
-# outside
+# isOutside
 
 Reactive function for telling that mouse is inside or outside of an element.
 

@@ -1,15 +1,5 @@
-# geoLocation
-
-It allows the user to provide their location to web applications if they so desire. The user is asked for permission to report location information.
-
-## Demo
-
-<GeoLocation />
-
-## Usage
-
-```svelte
 <script>
+// @ts-nocheck
   import { geoLocation } from "sveltronics";
   import { onMount } from "svelte";
   
@@ -29,21 +19,18 @@ It allows the user to provide their location to web applications if they so desi
   <div>Heading: {$coords?.heading}</div>
   <div>Speed: {$coords?.speed}</div>
 
-  <div>
+  <div class="mt-3 -ml-1">
     <button
       on:click={watch}
+      class="bg-[#f0f] p-1 text-white rounded border-2 w-20"
     >
       watch
     </button>
     <button
       on:click={stop}
+      class="bg-[#f0f] p-1 text-white rounded border-2 w-20"
     >
       stop
     </button>
   </div>
 </div>
-
-```
-
-- `watch`: Control function to resume updating geolocation.
-- `stop`: Control function to pause updating geolocation.

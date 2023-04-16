@@ -1,5 +1,5 @@
 <script>
-  import { setDrag } from "sveltronics";
+  import { setDraggable } from "sveltronics";
 
 </script>
 
@@ -44,7 +44,7 @@
   </div>
 
   <div
-    use:setDrag
+    use:setDraggable
     class="glowing-circle w-[250px] h-[250px] mt-12 mb-10 text-3xl flex justify-center
      cursor-grab items-center rounded-[15px] text-[#f0f]"
   >

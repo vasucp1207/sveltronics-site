@@ -1,18 +1,18 @@
-# useElementVisibility
+# elementVisibility
 
 Checks that an element is in viewport or not.
 
 ## Demo
 
 <script>
-  import { useElementVisibility } from "sveltronics";
+  import { elementVisibility } from "sveltronics";
   import { onMount } from "svelte";
 
   let myEle;
   let isVisible;
 
   onMount(() => {
-    isVisible = useElementVisibility(myEle);
+    isVisible = elementVisibility(myEle);
   })
   
 </script>
@@ -44,7 +44,7 @@ Checks that an element is in viewport or not.
   let isVisible;
 
   onMount(() => {
-    isVisible = useElementVisibility(myEle);
+    isVisible = elementVisibility(myEle);
   })
   
 </script>
