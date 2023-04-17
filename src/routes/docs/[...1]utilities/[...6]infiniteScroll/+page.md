@@ -23,7 +23,7 @@ Infinite scrolling of the element.
   class="border-2 rounded text-center overflow-scroll"
 >
   {#each items as item}
-    <div class="border-2 h-[29.6px] bg-[#e5e7eb] rounded m-1">{item}</div>
+    <div class="border-2 h-[29.6px] rounded m-1">{item}</div>
   {/each}
 </div>
 
