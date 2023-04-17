@@ -29,7 +29,7 @@ The Web Notification interface that display desktop notifications to the user.
 <script>
   import { showNotification } from "sveltronics";
 
-  let title = "Svelte-use";
+  let title = "Svelte-Hack";
   let body = "Learn by doing";
 </script>
 
