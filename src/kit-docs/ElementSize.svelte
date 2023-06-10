@@ -14,6 +14,6 @@
 
 </script>
 
-<textarea bind:this={myEle} class="border-2 resize" />
+<textarea bind:this={myEle} class="border-[1px] border-b-gray-500 resize" />
 <div>Height: {$height}</div>
 <div>Width: {$width}</div>

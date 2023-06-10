@@ -1,7 +1,7 @@
 :root,
 .prefers-light-scheme {
-  --kd-color-brand: 255 0 255;
-  --kd-color-focus: 255 0 255;
+  --kd-color-brand: 235 79 39;
+  --kd-color-focus: 235 79 39;
   --kd-color-soft: 68 78 94;
   --kd-color-body: 250 250 250;
   --kd-color-elevate: 243 244 246;
@@ -64,12 +64,12 @@
 :root.dark,
 .prefers-dark-scheme {
   color-scheme: dark;
-  --kd-color-brand: 255 0 255;
+  --kd-color-brand: 235 79 39;
   --kd-color-soft: 150 155 166;
   --kd-color-inverse: 245 245 245;
   --kd-color-border: 38 48 64;
   --kd-color-elevate: 10 19 33;
-  --kd-color-body: 0 0 0;
+  --kd-color-body: 16 24 39;
   --kd-color-focus: 255 0 255;
 }
 

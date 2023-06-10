@@ -22,13 +22,13 @@
   <div class="mt-3 -ml-1">
     <button
       on:click={watch}
-      class="bg-[#f0f] p-1 text-white rounded border-2 w-20"
+      class="bg-[#eb4f27] p-1 text-white rounded-md w-20"
     >
       watch
     </button>
     <button
       on:click={stop}
-      class="bg-[#f0f] p-1 text-white rounded border-2 w-20"
+      class="bg-[#eb4f27] p-1 text-white rounded-md w-20"
     >
       stop
     </button>

@@ -1,7 +1,7 @@
 <script>
   // @ts-nocheck
   import { setDraggable } from "sveltronics";
-
+  import { Button } from "flowbite-svelte";
 </script>
 
 <div class="flex items-center justify-evenly flex-wrap mt-20">
@@ -12,7 +12,7 @@
           xmlns="http://www.w3.org/2000/svg"
           width="100"
           height="100"
-          fill="#f0f"
+          fill="#eb4f27"
           class="bi bi-lightning"
           viewBox="0 0 16 16"
         >
@@ -24,30 +24,50 @@
       </div>
     </div>
 
-    <p class="text-[#444e5e] text-3xl text-center">
+    <p class="text-gray-600 dark:text-gray-400 text-3xl text-center">
       Svelte utility functions for your project
     </p>
 
     <div class="flex gap-2 btn-cont">
-      <a href="docs/utilities/draggable"
-        ><button
-          class="w-40 bg-[#f0f] text-white text-lg h-12 rounded-lg border-2"
-          >Getting Started</button
-        ></a
+      <Button size="lg" href="docs/utilities/draggable">
+        Getting Started <svg
+          aria-hidden="true"
+          class="ml-2 -mr-1 w-5 h-5"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          ><path
+            fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </Button>
+      <Button
+        size="lg"
+        color="alternative"
+        href="https://github.com/vasucp1207/sveltronics"
       >
-      <a href="https://github.com/vasucp1207/sveltronics"
-        ><button
-          class="w-40 bg-[#f0f] text-white text-lg h-12 rounded-lg border-2"
-          >Github</button
-        ></a
-      >
+        Github <svg
+          aria-hidden="true"
+          class="ml-2 -mr-1 w-5 h-5 -rotate-45"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          ><path
+            fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          /></svg
+        >
+      </Button>
     </div>
   </div>
 
   <div
     use:setDraggable
     class="glowing-circle w-[250px] h-[250px] mt-12 mb-10 text-3xl flex justify-center
-     cursor-grab items-center rounded-[15px] text-[#f0f]"
+     cursor-grab items-center rounded-[15px] text-white"
   >
     Drag Me
   </div>
@@ -55,13 +75,16 @@
 
 <style>
   .glowing-circle {
-    box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
-      inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
-      0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+    background-color: #ee9617;
+    background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
+
+    box-shadow: 0px -5px 20px 1px #ff61a0, 0px 10px 40px 1px #ff824c;
   }
+
   @media only screen and (max-width: 806px) {
     .btn-cont {
       justify-content: center;
     }
-}
+  }
+
 </style>

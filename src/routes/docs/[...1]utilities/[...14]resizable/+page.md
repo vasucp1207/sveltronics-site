@@ -14,7 +14,7 @@ Makes an element resizable.
     height: 150px;
     width: 150px;
     color: white;
-    background: #f0f;
+    background: #eb4f27;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -11,7 +11,7 @@
 <div style="
   height: 200px;
   border-radius: 5px;
-  border: 2px solid #444e5e;
+  border: 2px solid lightgray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@
       height: 150px;
       width: 150px;
       color: white;
-      background: #f0f;
+      background: #eb4f27;
       display: flex;
       justify-content: center;
       align-items: center;

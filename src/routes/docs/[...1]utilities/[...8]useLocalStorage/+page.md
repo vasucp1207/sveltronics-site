@@ -15,19 +15,18 @@ Reactive `LocalStorage` it provides an easy way to store and retrieve data from 
   <p class="text-3xl">{$count}</p>
   <button
     on:click={() => count.update(val => val + 1)}
-    style="width: 100px; height: 50px; color: white; background: #f0f;
+    style="width: 100px; height: 50px; color: white; background: #eb4f27;
       cursor: pointer; display: flex; justify-content: center; align-items: center;
       border-radius: 5px;"
-    class="border-2"
   >
     Increase
   </button>
   <button
     on:click={() => count.set(0)}
-    style="width: 100px; height: 50px; color: white; background: #f0f;
+    style="width: 100px; height: 50px; color: #eb4f27; background: white;
       cursor: pointer; display: flex; justify-content: center; align-items: center;
       border-radius: 5px;"
-    class="border-2"
+    class="border border-bg-500"
   >
     Reset
   </button>

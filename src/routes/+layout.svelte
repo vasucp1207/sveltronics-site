@@ -48,7 +48,7 @@
             xmlns="http://www.w3.org/2000/svg"
             width="35"
             height="35"
-            fill="#f0f"
+            fill="#eb4f27"
             class="bi bi-lightning"
             viewBox="0 0 16 16"
           >

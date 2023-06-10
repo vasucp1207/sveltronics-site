@@ -18,7 +18,7 @@ Reactive mouse position related to an element
 
 <div
   bind:this={myEle}
-  style="width: 150px; height: 150px; color: white; background: #f0f;
+  style="width: 150px; height: 150px; color: white; background: #eb4f27;
       cursor: pointer; display: flex; justify-content: center; align-items: center;
       border-radius: 5px;"
 >

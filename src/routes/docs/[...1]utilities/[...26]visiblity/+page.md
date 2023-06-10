@@ -19,8 +19,8 @@ Checks that an element is in viewport or not.
 
 <div class="h-[50vh] flex items-center justify-center">
   <div
-    style="width: 120px; height: 50px;"
-    class="border-2 rounded flex items-center justify-center bg-[#f0f] text-white"
+    style="width: 120px; height: 50px; background: #eb4f27"
+    class="rounded-md flex items-center justify-center text-white"
     bind:this={myEle}
   >
     Scroll
@@ -46,7 +46,7 @@ Checks that an element is in viewport or not.
   onMount(() => {
     isVisible = elementVisibility(myEle);
   })
-  
+
 </script>
 
 <div>

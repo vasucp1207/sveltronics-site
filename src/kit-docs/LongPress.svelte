@@ -15,7 +15,7 @@
 <button 
   use:longPress={1000}
   on:longPressCallback={toogle}
-  class="bg-[#f0f] text-white rounded border-2 p-2"
+  class="bg-[#eb4f27] text-white rounded-md p-2"
 >
   Press(1000ms)
 </button>

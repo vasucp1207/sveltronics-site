@@ -25,11 +25,11 @@
   <div class="flex flex-col items-center gap-6">
     <div>
       <input
-        class="border-2 p-1 rounded border-[#f0f] focus:outline-none"
+        class="border-2 p-2 rounded border-gray-400 focus:outline-[#eb4f27]"
         bind:value={text}
       />
       <button
-        class="border-2 p-2 bg-[#f0f] text-white rounded "
+        class="p-2 bg-[#eb4f27] text-white rounded-md"
         on:click={addTodo}>Add Todo</button
       >
     </div>

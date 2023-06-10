@@ -12,6 +12,6 @@
   <div class="text-lg">
     {$state}
   </div>
-  <button on:click={next} class="bg-[#f0f] p-2 text-white rounded w-14">Next</button>
-  <button on:click={prev} class="bg-[#f0f] p-2 text-white rounded w-14">Prev</button>
+  <button on:click={next} class="bg-[#eb4f27] w-28 p-2 text-white rounded-md">Next</button>
+  <button on:click={prev} class="bg-[#eb4f27] w-28 p-2 text-white rounded-md">Prev</button>
 </div>

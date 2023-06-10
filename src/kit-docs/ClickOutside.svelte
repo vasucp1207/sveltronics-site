@@ -11,7 +11,7 @@
 
 <button
   on:click={() => show = true}
-  class="bg-[#f0f] text-white p-2 rounded border-2"
+  class="bg-[#eb4f27] text-white p-2 rounded-md"
 >
   Show Modal
 </button>
@@ -21,7 +21,7 @@
     use:clickOutside
     on:clickOutsideDispatch={toogle}
     class="border-2 w-48 h-40 flex justify-center 
-    border-[#363535] rounded items-center"
+    border-gray-500 rounded-md items-center"
   >
     Modal
   </div>

@@ -14,15 +14,15 @@ Reactive `SessionStorage` it provides an easy way to store and retrieve data fro
 <div class="flex justify-center items-center gap-4">
   <p>{$count}</p>
   <button
-    style="width: 100px; height: 50px;"
-    class="bg-[#f0f] p-1 text-white rounded border-2"
+    style="width: 100px; height: 50px; background: #eb4f27"
+    class="p-1 text-white rounded-md"
     on:click={() => count.update(val => val + 1)}
   >
     Increase
   </button>
   <button
-    style="width: 100px; height: 50px;"
-    class="text-[#f0f] bg-white rounded border-2"
+    style="width: 100px; height: 50px; color: #eb4f27"
+    class="bg-white rounded-md border border-gray-600"
     on:click={() => count.set(0)}
   >
     Reset
